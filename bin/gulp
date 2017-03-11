@@ -1,0 +1,6 @@
+#!/bin/bash
+
+(
+ulimit -n 10200
+node_modules/.bin/gulp "$@"
+)
